@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One);
+
+/* pokemone pictures */
+
+.frog {
+  width: 200px;
+  height: 200px;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overlay */
+  box-shadow: 0 0 0 100px inset, 0 0 5px grey;
+  /* hover out transition */
+  transition: box-shadow 1s;
+  float: left;
+  margin: 10px;
+}
+
+
+/* pokemone names */
+
+.frog::after {
+  width: 80%;
+  height: 80%;
+  display: block;
+  white-space: pre;
+  font-family: Georgia, serif;
+  color: white;
+  border: 2px solid;
+  text-align: center;
+  /* center content using flex box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* hover out transition */
+  transition: opacity 1s .5s;
+}
+
+
+/* reveal pokemone picture on hover */
+
+.frog:hover {
+  box-shadow: 0 0 0 5px inset, 0 0 5px grey, 0 0 10px grey inset;
+  transition: box-shadow 1s;
+}
+
+
+/* hide pokemone name on hover */
+
+.frog:hover::after {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+#bb {
+  background-image: url(https://external-preview.redd.it/7f8F2WF5_Y4LqjfpN8hKrNT81U2bt4D7zmYsXTqyY9U.jpg?auto=webp&s=7af012b2143190c2b3c1f2fc5bcd4ccd6de571c3);
+  color: rgba(86, 255, 165, 0.993);
+  background-size: 200px;
+}
+
+#bb::after {
+  content: 'Norman Pepe';
+}
+
+#cc {
+  background-image: url(https://64.media.tumblr.com/4891fd3d8cd5ca1bd230373502cd591f/tumblr_nwumkewtye1udwanoo1_1280.jpg);
+  color: rgba(250, 48, 240, 0.9);
+  background-size: 200px;
+}
+
+#cc::after {
+  content: 'Doner Pepe'
+}
+
+#ss {
+  background-image: url(https://ih1.redbubble.net/image.290261142.8929/pp,840x830-pad,1000x1000,f8f8f8.u6.jpg);
+  color: rgba(0, 66, 247, 0.9);
+  background-size: 200px;
+}
+
+#ss::after {
+  content: 'BLM Pepe'
+}
+
+#pp {
+  background-image: url(https://pbs.twimg.com/media/Ctho75ZUAAAD3Bo.jpg);
+  color: rgb(251, 255, 0);
+  background-size: 200px;
+}
+
+#pp::after {
+  content: 'LGBT Pepe'
+}
+
+#wrapper {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  
+}
