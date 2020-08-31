@@ -1,1 +1,1 @@
-Source code for the YouTube tutorial [located here](https://youtu.be/SMzAcBEc6Zk).
+Demo [https://giphy.com/gifs/S936cT6RGZzbDrGjEY](https://giphy.com/gifs/S936cT6RGZzbDrGjEY).
