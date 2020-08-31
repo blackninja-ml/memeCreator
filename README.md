@@ -72,3 +72,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Deployment
 The app was delpoyed on Heroku and you can visit the website here:
 https://afternoon-basin-03985.herokuapp.com
+Please have your imgflip account login already, otherwise you will not be able to make memes on this website.
+If you don't have an imgflip account please visit https://imgflip.com/api and create a new account here. 
+Replace your username variable and password variable in Meme/Meme.js and then you will be able to 
+obtain imgflip's API access and you are ready to make memes!
+Happy Memeing!
