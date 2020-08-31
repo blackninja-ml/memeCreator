@@ -1,1 +1,1 @@
-Demo [https://giphy.com/gifs/S936cT6RGZzbDrGjEY](https://giphy.com/gifs/S936cT6RGZzbDrGjEY).
+Demo [https://media.giphy.com/media/S936cT6RGZzbDrGjEY/giphy.gif](https://media.giphy.com/media/S936cT6RGZzbDrGjEY/giphy.gif).
